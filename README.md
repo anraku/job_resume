@@ -7,121 +7,124 @@
 
 2019年1月　パーソルキャリア SEEDS Company 退社
 
-
-# 得意業務
-サーバサイドのWebアプリケーション設計、開発
-
-APIサーバの設計、開発
-
+2019年3月〜　フリーランスとして活動
 
 # 業務経歴
+## メッセージ配信プラットフォームの開発 2019年
+### 作業概要
+運用しているLINEと連携できるメッセージ配信プラットフォームの機能追加
+
+### 担当業務
+- DB設計
+- ReactJSを使ったフロントエンド開発
+- Ruby on Railsを使ったAPI開発
+
+### 使用した技術
+Ruby on Rails, ReactJS, Typescript, Mysql, AWS RDS, Git, Docker
+
+## C向けサブスクリプションサービスの開発 2019年
+### 作業概要
+サブスクリプションサービスのフロント、及びAPIの開発
+
+### 担当業務
+- DB設計
+- API設計
+- ReactJS、Typescriptを使ったフロントエンド開発
+- レイヤードアーキテクチャで構築されたAPIの開発
+- Webアプリケーションの脆弱性対応
+- API側のログ設計、エラー設計
+
+### 使用した技術
+ReactJS, Typescript, Golang, Echo, Gorp, Redis, Mysql, Nginx, Postfix, Git, Docker
+
 ## 社外向けWebAPI開発 2018年
-### プロジェクト概要
+### 作業概要
 自社サービスが持っているデータを外部に提供するためのAPIの開発
 
 ### 担当業務
-設計、開発、ソースレビュー、テスト、インフラ構築
-
-その他メンバーの管理、サポートなど
-
-### 技術スタック
-Golang, Echo, Gorm, Mysql, Nginx, AWS ECS, Aurora, Git, Docker, Terraform
-
-### 習得スキル
 - 設計書、ドキュメントの作成
-- ０からプログラムの実装、修正
+- 0からプログラムの実装、修正
 - golangでのテストコードの実装
 - プルリクエストの作成、及びレビュー
-- APIの疎通テスト
 - Dockerを使った開発環境の構築
 - Terraformを使ったインフラの構築
 - AWS ECSへのデプロイ、保守運用
+- その他メンバーの管理、サポートなど
+
+### 使用した技術
+Golang, Echo, Gorm, Mysql, Nginx, AWS ECS, Aurora, Git, Docker, Terraform
 
 ### コメント
 - Golangを使った開発業務の経験はありませんでしたが、事前に学習を行ったり業務の中で適時情報収集をする事で、即戦力として開発メンバーをリードしました。また、開発だけでなく設計が曖昧な点や改善できる点をメンバーに対して提案したり、チームメンバーのヘルプに積極的に対応することで、少ないコストでより良いプロダクトを作ることに貢献しました
 - プルリクエスト時にdescriptionを記載する文化がチームに根付いていなかったのですが、githubにプルリクエストのテンプレートを導入しつつ率先して分かりやすいプルリクエストを書いていったことでプルリクエストのdescriptionを記載するやり方を普及させることができました。
 
-
 ## 自社サービスの開発・運用 2018年
-### プロジェクト概要
-自社サービスのユーザビリティ向上を目的とした設計や開発、テスト、運用・保守、セキュリティ向上のための脆弱性対応の業務を担当していました。
+### 作業概要
+自社サービスのユーザビリティ向上を目的とした設計や開発、テスト、運用・保守、セキュリティ向上のための脆弱性対応の業務を担当
 
 ### 担当業務
-設計、開発、ソースレビュー、リリース、運用・保守
-
-### 技術スタック
-Ruby on Rails, Passenger, Apache, Mysql, Bash, Nginx, AWS ECS, EC2, Aurora, S3, Jenkins, Git, Route 53, Docker, Terraform, Ansible, Mackerel
-
-### 習得スキル
 - Railsフレームワークに基づいた詳細設計
 - Railsアプリケーションの修正やDBマイグレーションの実施
 - Webアプリケーションの脆弱性調査、対応
 - NginxやApache、Passengerなどのミドルウェアなどの設定
 - Linuxサーバ上での障害調査
 - Bashスクリプトを使ったツールの実装
-- AWSコンソール上の操作方法
+- AWSコンソールを使ったリソースの管理
+
+### 使用した技術
+Ruby on Rails, Passenger, Apache, Mysql, Bash, Nginx, AWS ECS, EC2, Aurora, S3, Jenkins, Git, Route 53, Docker, Terraform, Ansible, Mackerel
 
 ### コメント
 - １社目の在籍中に得たBtoCアプリケーションの保守運用を行っていた経験を生かして、障害発生時の復旧から原因特定、再発防止策の実施を行うことでサービス品質の向上に貢献しました。
 - １社目の在籍中に行っていた脆弱性対応で得た知識を生かして、XSSやSQLインジェクション、CSRFなどの脆弱性対応の実装を行いました。また、セキュリティについて得意でないメンバーに対してサポートや情報共有を行うことでプロジェクトの円滑な推進に貢献しました。
 - 急激なサービスへのアクセス増加によるリクエストエラーなどに対して、Passengerのコネクションプールサイズを調整するなどのアプリケーションサーバの設定値の見直しや、適切なサーバスペックの提案などを行うことでUXの改善に貢献しました。
 
-
 ## 社内用の管理システムの設計・開発 2018年
-### プロジェクト概要
+### 作業概要
 自社サービスが持っているデータなどを非エンジニア社員でも閲覧できるような管理システムの開発
 
 ### 担当業務
-要件定義、設計、開発、ソースレビュー、テスト、リリース、運用・保守
-
-### 技術スタック
-Ruby on Rails, Puma, Apache, Mysql, Bash, Nginx, AWS ECS, RDS, S3, Route 53, Cloud Watch, Jenkins, Git,  Docker, Terraform
-
-### 習得スキル
 - 要件からアプリケーションの機能要件整理
 - gem設計、画面設計、DBテーブル設計、インフラ設計、ユーザ向けドキュメント作成
 - 0からRailsアプリケーションの実装
 - Terraformを使ったインフラ構成の管理
 - AWS ECSへアプリケーションのデプロイ、保守
-- プロジェクト管理
+
+### 使用した技術
+Ruby on Rails, Puma, Apache, Mysql, Bash, Nginx, AWS ECS, RDS, S3, Route 53, Cloud Watch, Jenkins, Git,  Docker, Terraform
 
 ### コメント
 - AWS上でのインフラ設計を行うにあたり、普段の業務やAWS研修で身に着けた知識を生かして可用性、や信頼性、コスト最適化などの観点から最善と思われる設計を考案し、Terraformを使ったインフラ構築を行いました。
 - メンバーが開発をスムーズに行えるよう、開発フェーズに入る前からDockerを使った開発環境の構築やドキュメントの整備を行いました。
 
-
 ## くじ販売システムの開発と保守・運用 2017年
-### プロジェクト概要
+### 作業概要
 AWS上に構築されたBtoCアプリケーションの開発と保守・運用
 
 ### 担当業務
-顧客対応、要件定義、設計、開発、ソースレビュー、テスト、リリース、運用保守
-
-### 技術スタック
-Java6, Struts2, Apache, Jboss7, OracleDB, AWS EC2, RDS, CloudWatch, S3, DeepSecurity, Subversion
-
-### 習得スキル
 - Javaアプリケーションの修正
 - Linuxサーバ上での障害調査
 - Bashスクリプトを使ったツールの実装
-- AWSコンソール上の操作方法
+- AWSコンソール上でリソースの管理
 - Webアプリケーションの脆弱性対応
 - 障害報告などの顧客対応
 - 顧客とのプロジェクト調整
+
+### 使用した技術
+Java6, Struts2, Apache, Jboss7, OracleDB, AWS EC2, RDS, CloudWatch, S3, DeepSecurity, Subversion
 
 ### コメント
 プロジェクトに与えられた予算が少なくメンバーも少数構成となっていた中、顧客調整をしながら定常業務である保守運用作業をしつつ割り込みで発生する障害対応などの仕事を一人でこなしていた時期が3ヶ月ほどありました。また、日次バッチが終了しないなどのアプリケーションのパフォーマンスに関する業務影響の高い障害が発生した際はアプリケーションとDBのパフォーマンスチューニングを行うことなどでバリューを発揮しました。
 その他では自分担当の作業以外にも必要に応じてPMに代わって客先にお伺いし顧客対応を行ったり、プロジェクトを担当している営業の方とコミュニケーションを取ることでプロジェクトを円滑に進められるよう行動しました。
 
-
 ## サーバレスアーキテクチャによる既存Webアプリの開発 2017年
-### プロジェクト概要
+### 作業概要
 AWSサービス上でサーバレスアーキテクチャのWebアプリの開発
 
 ### 担当業務
 開発、ソースレビュー、テスト
 
-### 技術スタック
+### 使用した技術
 Javascript, nodejs, css, AWS lambda, API Gateway, S3, Cloud Front, Route53, DynamoDB
 
 ### コメント
@@ -137,7 +140,7 @@ AWSで構築されているWebアプリケーションサービスのテスト�
 ### 習得スキル
 - Pythonを使ったファイル操作やデータの集計のプログラミング
 
-### 技術スタック
+### 使用した技術
 Python, CentOS, Git
 
 ### コメント
@@ -157,7 +160,7 @@ Pythonを業務で使うのは初めてでメンバーにもPythonを使った�
 - リスト表示、画面遷移、カメラ撮影機能の実装
 - autoLayoutを使って端末毎の画面レイアウトを統一する方法
 
-### 技術スタック
+### 使用した技術
 Swift3, Heroku, Git
 
 ### コメント
@@ -165,14 +168,14 @@ Swift3, Heroku, Git
 
 
 ## 某金融系企業の業務システムの開発 2016年
-### プロジェクト概要
+### 作業概要
 某金融系企業の業務システムの一部を改修
 
 ### 担当業務
 要件定義、基本設計、詳細設計、実装、ソースレビュー、テスト、本番リリース
 某金融系企業の業務システムの改修案件にて要件定義からリリースまで一貫して担当
 
-### 技術スタック
+### 使用した技術
 Java6, Struts2, Apache2.2, Tomcat6, PostgreSQL, JUnit, JMeter, Selenium IDE, AWS EC2, Windows Server 2008, Git
 
 ### 習得スキル
@@ -208,7 +211,7 @@ APIの仕様書の作成、実装、単体テスト
 - テスト項目書の作成
 - PHPUnitを使った単体テストの実装
 
-### 技術スタック
+### 使用した技術
 PHP, PHPUnit, CentOS, Slim, Git, AWS EC2, Git
 
 ### コメント
@@ -227,7 +230,7 @@ PHP, PHPUnit, CentOS, Slim, Git, AWS EC2, Git
 - Swiftを使ったIOSアプリの実装
 - スマートフォンアプリのテスト観点
 
-### 技術スタック
+### 使用した技術
 Java(Android), Swift3, mBaaS, Git, Fablic
 
 ### コメント
@@ -249,9 +252,9 @@ Java(Android), Swift3, mBaaS, Git, Fablic
 	- Perl
 	- PHP
 	- Javascript
+  - Typescript
 	- C#
 	- Swift
-	
 - フレームワーク
 	- echo(Golang)
 	- gorm(Golang)
@@ -262,10 +265,12 @@ Java(Android), Swift3, mBaaS, Git, Fablic
 	- Ruby on Rails
 	- Slim(PHP)
 	- JQuery
+  - ReactJS
 - DB
 	- MySQL
 	- PostgreSQL
 	- Oracle DB
+  - Redis
 - アプリケーションサーバー
 	- Passenger
 	- Puma
@@ -311,4 +316,4 @@ Java(Android), Swift3, mBaaS, Git, Fablic
 Github: 
 https://github.com/anraku
 Blog: 
-https://blog.daimori.com/
+https://anrakusan.hateblo.jp/
