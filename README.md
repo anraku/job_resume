@@ -313,7 +313,6 @@ Java(Android), Swift3, mBaaS, Git, Fablic
 
 　業務以外でもプライベートで学習した内容などは下記のリンク先にアウトプットしていますのでぜひご覧ください。
 
-Github: 
-https://github.com/anraku
-Blog: 
-https://anrakusan.hateblo.jp/
+Github: https://github.com/anraku  
+Blog: https://blog.daimori.com/  
+Qiita: https://qiita.com/anraku  
