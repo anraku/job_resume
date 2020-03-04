@@ -1,7 +1,9 @@
 # 職務経歴
-2015年4月〜2017年11月　テックファーム株式会社
-2018年1月〜2019年1月　パーソルキャリア SEEDS Company
-2019年3月〜　フリーランスとして活動
+2015年4月〜2017年11月　テックファーム株式会社  
+
+2018年1月〜2019年1月　パーソルキャリア SEEDS Company  
+
+2019年3月〜　フリーランスとして活動  
 
 # 今後やっていきたいこと・希望の業務
 - Golangを使ったバックエンド開発
@@ -15,19 +17,85 @@
 - 機械学習を使ったアプリケーションの開発
 	- 業務未経験です、プライベートで学習中
 
+# スキルセット
+- プログラミング言語
+	- Golang
+	- Ruby
+	- Java
+	- Python
+	- Perl
+	- PHP
+	- JavaScript
+  	- TypeScript
+	- C#
+	- Swift
+- フレームワーク
+	- echo(Golang)
+	- gorm(Golang)
+	- Struts 2(Java)
+	- Spring 3(Java)
+	- Mybatis
+	- Hibernate5
+	- Ruby on Rails
+	- Slim(PHP)
+	- JQuery
+  	- ReactJS
+- DB
+	- MySQL
+	- PostgreSQL
+	- Oracle DB
+  	- Redis
+- アプリケーションサーバー
+	- Passenger
+	- Puma
+	- Tomcat
+	- JBoss
+- ミドルウェア
+	- Apache
+	- Nginx
+	- DeepSecurity
+- AWS
+	- EC2
+	- RDS
+	- Aurora
+	- S3
+	- CloudFront
+	- Cloudwatch
+	- Route 53
+	- Elastic Load Balaning
+	- ECS
+	- API Gateway
+	- Lambda
+	- DynamoDB
+- GCP
+	- BigQuery
+- ツール
+	- Git
+	- Docker
+	- Ansible
+	- Terraform
+	- Slack
+	- Fluentd
+	- Mackerel
+	- Jenkins
+	- Circle CI
+	- Github Action
+
 # 業務経歴
 ## スタートアップでC向けサービスの開発 2019年11月〜2020年3月
 ### 作業概要
 サービスのバックエンド開発全般を担当。
 主な作業としてバックエンドの技術選定から要件定義、DBやAPIの仕様策定、開発、運用フローの設計と整備を実施しました。
-その他開発環境整備やCircleCIを用いたCI/CDの設定、フロントエンドの実装、サービスのデプロイメントやDBマイグレーションなどを担当。
-開発ではバックエンドはGo言語、フロントエンドはReact+TypeScriptを使用していました。
+その他開発環境整備やCircleCIを用いたCI/CDの設定、フロントエンドの実装、サービスのデプロイメントやDBマイグレーションなどを担当。  
+開発ではバックエンドはGo言語、フロントエンドはReact+TypeScriptを使用していました。  
 また、AWS ECSを使ったサービス運用の経験もあります。
 
 ### 担当業務
 - 要件定義
 - DB設計
 - API設計
+- Dockerコンテナベースの環境構築
+- CI/CD環境の構築
 - API実装（レイヤードアーキテクチャ）
 - ReactJS、Typescriptを使ったフロントエンド開発（Re-ducksパターン、アトミックデザイン）
 - API側のログ設計、エラー設計
@@ -235,71 +303,8 @@ APIの仕様書の作成、実装、単体テスト
 - 実装フェーズでは画面の作成、WebViewを使った外部遷移の実装、ListViewの実装を担当しました。
 - その他GAタグを埋め込みやアプリの基本的な動作、プッシュ通知などのテストを担当しました。
 
-
 # 取得資格
 - 基本情報技術者
-
-# スキルセット
-- プログラミング言語
-	- Golang
-	- Ruby
-	- Java
-	- Python
-	- Perl
-	- PHP
-	- Javascript
-  	- Typescript
-	- C#
-	- Swift
-- フレームワーク
-	- echo(Golang)
-	- gorm(Golang)
-	- Struts 2(Java)
-	- Spring 3(Java)
-	- Mybatis
-	- Hibernate5
-	- Ruby on Rails
-	- Slim(PHP)
-	- JQuery
-  	- ReactJS
-- DB
-	- MySQL
-	- PostgreSQL
-	- Oracle DB
-  	- Redis
-- アプリケーションサーバー
-	- Passenger
-	- Puma
-	- Tomcat
-	- JBoss
-- ミドルウェア
-	- Apache
-	- Nginx
-	- DeepSecurity
-- AWS
-	- EC2
-	- RDS
-	- Aurora
-	- S3
-	- CloudFront
-	- Cloudwatch
-	- Route 53
-	- Elastic Load Balaning
-	- ECS
-	- API Gateway
-	- Lambda
-	- DynamoDB
-- ツール
-	- Git
-	- Docker
-	- Ansible
-	- Terraform
-	- Slack
-	- Fluentd
-	- Mackerel
-	- Jenkins
-	- Circle CI
-	- Github Action
 
 # 自己PR
 　新卒で入社したSI企業では主にサーバサイドエンジニア、インフラエンジニアを経験してきました。学生時代でのプログラミングの経験や学習したITの知識を生かして退職までに8つほどのプロジェクトに参画し、要件定義から実装、テスト、プロジェクトによっては保守・運用作業までをワンストップで担当しました。使用した技術は主にPHP、Java（WebアプリとAndroidアプリで使用）で、他にもPython、C#、Swiftを実務で使用した経験があります。
